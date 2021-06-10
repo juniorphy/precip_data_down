@@ -15,3 +15,6 @@ mv precip.mon.mean.1x1.nc precl.precip.mon.mean.1.0dg.nc
 wget -c ftp://ftp.cdc.noaa.gov/Datasets/precl/2.5deg/precip.mon.mean.2.5x2.5.nc 
 mv precip.mon.mean.2.5x2.5.nc precl.precip.mon.mean.2.5dg.nc
 
+wget -c ftp://ftp.cdc.noaa.gov/Datasets/gpcc/full_v7/precip.mon.total.1x1.v7.nc
+mv precip.mon.total.1x1.v7.nc gpcc.precip.mon.mean.1.0dg.nc
+
